@@ -1,14 +1,11 @@
-def checkio(data):
-    a, b = data
-
-    #replace this for solution
+def find_destination(start, end):
     return 1
 
-#These "asserts" using only for self-checking and not necessary for auto-testing
 if __name__ == '__main__':
-    assert checkio([1, 9]) == 2, "First"
-    assert checkio([9, 1]) == 2, "Reverse First"
-    assert checkio([10, 25]) == 1, "Neighbours"
-    assert checkio([5, 9]) == 4, "Diagonal"
-    assert checkio([26, 31]) == 5, "One row"
-    assert checkio([50, 16]) == 10, "One more test"
+    #These "asserts" using only for self-checking and not necessary for auto-testing
+    assert find_destination(1, 9) == 2, "First"
+    assert find_destination(9, 1) == 2, "Reverse First"
+    assert find_destination(10, 25) == 1, "Neighbours"
+    assert find_destination(5, 9) == 4, "Diagonal"
+    assert find_destination(26, 31) == 5, "One row"
+    assert find_destination(50, 16) == 10, "One more test"
