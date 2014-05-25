@@ -8,8 +8,8 @@
     The map of the circuit consists of a series of square cells. The first element in the center is marked as 1, and
     continuing in a clockwise spiral, each other elements is marked in ascending order.
     On the map, you can move (connect cells) vertically and horizontally.
+    You can help Nikola find the manhattan distance between any two elements on the map.
     For example, the distance between cells 1 and 9 is two moves and the distance between 24 and 9 is one move.
-    You must help Nikola find the distance between any two elements on the map.
 </p>
 
 <img class="for_info_only"
@@ -19,9 +19,9 @@
      width="380px"
      src="{{ MEDIA }}spiral-square.png"/>
 
-<p><strong>Input</strong>: Two marks of the start and the end cells as an integers.</p>
+<p><strong>Input</strong>: Two marks of cells as an integers.</p>
 
-<p><strong>Output</strong>: The distance between the two cells as an integer.</p>
+<p><strong>Output</strong>: The manhattan distance between the two cells as an integer.</p>
 
 <div class="for_info_only">
     <p>
@@ -46,7 +46,7 @@ find_distance(5, 9) == 4
 
 <p>
     <strong>Precondition: </strong>
-    0 < start < 1000<br>
-    0 < end < 1000<br>
-    start != end
+    0 < first < 1000<br>
+    0 < second < 1000<br>
+    first != second
 </p>
