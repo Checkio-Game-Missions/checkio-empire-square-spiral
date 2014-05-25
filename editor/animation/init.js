@@ -104,7 +104,7 @@ requirejs(['ext_editor_1', 'jquery_190', 'raphael_210'],
             tcanvas = new DestinationSpiralCanvas([9, 1]);
             tcanvas.createCanvas($tryit.find(".tryit-canvas")[0]);
             tcanvas.createFeedback(function(data, e){
-                this_e.sendToConsoleFunction(find_distance, data[0], data[1]);
+                this_e.sendToConsoleFunction("find_distance", data[0], data[1]);
                 e.stopPropagation();
                 return false;
             });
