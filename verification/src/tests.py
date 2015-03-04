@@ -65,9 +65,6 @@ TESTS = {
             "input": [86, 69],
             "answer": 9
         },
-
-    ],
-    "Extra": [
         {
             "input": [2, 18],
             "answer": 4
