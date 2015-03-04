@@ -1,4 +1,4 @@
-from checkio_referee import RefereeBase
+from checkio_referee import RefereeCodeGolf
 from checkio_referee.covercode import py_unwrap_args
 
 import settings
@@ -7,8 +7,10 @@ from tests import TESTS
 
 
 
-class Referee(RefereeBase):
+class Referee(RefereeCodeGolf):
     TESTS = TESTS
+    DEFAULT_LENGTH = 250
+    BASE_POINTS = 25
     EXECUTABLE_PATH = settings.EXECUTABLE_PATH
     CURRENT_ENV = settings_env.CURRENT_ENV
     FUNCTION_NAME = "find_distance"
