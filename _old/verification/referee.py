@@ -11,5 +11,5 @@ api.add_listener(
                        'python-27': unwrap_args,  # or None
                        'python-3': unwrap_args
                    },
-                   function_name='find_distance'
+                   DEFAULT_FUNCTION_NAME='find_distance'
     ).on_ready)
