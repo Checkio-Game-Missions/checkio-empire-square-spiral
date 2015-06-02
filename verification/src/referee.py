@@ -12,7 +12,7 @@ class Referee(RefereeCodeGolf):
     BASE_POINTS = 10
     ENVIRONMENTS = settings_env.ENVIRONMENTS
 
-    DEFAULT_FUNCTION_NAME = "find_distance"
+    DEFAULT_FUNCTION_NAME = "golf"
     ENV_COVERCODE = {
         "python_2": covercodes.py_unwrap_args,
         "python_3": covercodes.py_unwrap_args,
