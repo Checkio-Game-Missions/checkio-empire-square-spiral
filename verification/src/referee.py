@@ -8,8 +8,8 @@ from tests import TESTS
 
 class Referee(RefereeCodeGolf):
     TESTS = TESTS
-    DEFAULT_MAX_CODE_LENGTH = 450
-    BASE_POINTS = 25
+    DEFAULT_MAX_CODE_LENGTH = 350
+    BASE_POINTS = 10
     ENVIRONMENTS = settings_env.ENVIRONMENTS
 
     DEFAULT_FUNCTION_NAME = "find_distance"
