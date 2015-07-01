@@ -2,7 +2,7 @@ def golf(first, second):
     return 1
 # if __name__ == '__main__':
 #     # These "asserts" using only for self-checking and not necessary for auto-testing
-#     assert golf(1, 9) == 2
-#     assert golf(9, 1) == 2
-#     assert golf(10, 25) == 1
-#     assert golf(5, 9) == 4
+#     assert golf(1, 9) == 2, "1st example"
+#     assert golf(9, 1) == 2, "2nd example"
+#     assert golf(10, 25) == 1, "3rd example"
+#     assert golf(5, 9) == 4, "4th example"
